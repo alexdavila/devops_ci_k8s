@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-back-jenkis
-          image: alexdavila/devops_tetst1
+          image: alexdavila/billingapp-backend
           ports:
             - containerPort: 7280
               name: billingappbport
